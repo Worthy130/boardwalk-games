@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
-/* CSS Variables */
+/* css variables */
 :root {
     --primary-font: 'Inter', sans-serif;
     --heading-font: 'Macondo', cursive;
@@ -11,7 +11,7 @@
     --light-color: #7a9fc2; /* light blue */
 }
 
-/* Global Styles */
+/* global styles */
 body {
     font-family: var(--primary-font);
 }
@@ -23,7 +23,18 @@ h3 {
     color: var(--primary-color);
 }
 
-/* Target Subheading color */
+/* target Subheading color */
 .sub-heading-color {
     color: var(--highlight-color);
+}
+
+/* grid visualsation css for testing */
+.conatiner,
+.row {
+    border: 2px solid white;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
 }
