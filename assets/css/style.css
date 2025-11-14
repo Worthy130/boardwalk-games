@@ -5,14 +5,10 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #3a2620;
-    /* dark brown */
-    --secondary-color: #aa9581;
-    /* light brown */
-    --highlight-color: #416a8e;
-    /* blue */
-    --highlight-color-light: #7a9fc2;
-    /* light blue */
+    --primary-color: #3a2620; /* dark brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
 }
 
 /* Global styles */
@@ -37,7 +33,9 @@ h3 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-/* Navbar styles */
+
+/* Navbar */
+
 #navbar {
     background-color: var(--primary-color);
 }
@@ -47,9 +45,11 @@ h3 {
 }
 
 /* Header */
-#header {
-    font-family: var(--secondary-font)
+
+#header .lead {
+    font-family: var(--secondary-font);
 }
+
 /* grid visualisation CSS for testing */
 
 /* .container,
