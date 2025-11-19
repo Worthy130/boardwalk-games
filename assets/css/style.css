@@ -156,6 +156,18 @@ h2 {
 } */
 
 /* Media queries */
+/* Medium devices (mobile, 320px and up) */
+@media screen and (min-width: 320px) {
+    /* Make all service cards the same height for consistency */
+    #events .table {
+        font-size: .75rem;
+        max-width: 100%;
+        flex-shrink: 1;
+    }
+    
+}
+
+/* Media queries */
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     /* Make all service cards the same height for consistency */
