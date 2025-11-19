@@ -96,6 +96,19 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events Section */
+    /* Remove border from event cards */
+#events .card {
+    border: none;
+}
+    /* Discount text */
+#discount {
+    color: white;
+    background-color: var(--highlight-color);
+    min-width: fit-content;
+    padding: 5px 10px;
+}
+
 /* Game library cards */
 #new-games .card,
 #fav-games .card {
