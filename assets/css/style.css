@@ -114,6 +114,19 @@ h2 {
     border: none;
 }
 
+/* Reservation Section */
+    
+
+
+
+    /* Submit button styles */
+#sub {
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+}
+
+
 /* Footer / Contact Section */
 #contact {
     background-color: var(--primary-color);
@@ -143,17 +156,7 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
-/* grid visualisation CSS for testing */
 
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
 /* Media queries */
 /* Medium devices (mobile, 320px and up) */

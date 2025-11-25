@@ -265,29 +265,38 @@
                                     <label for="email" class="form-label">Email</label>
                                     <input class="form-control" id="email" name="email" type="email" required>
                                 </div>
-                                
+                            </div>
+
+                            <div class="row">
                                 <div class="col-12 col-lg-6 mb-3">
-                                    <label for="event-type" class="form-label">Event type</label>
+                                    <label for="event-type" class="form-label">Select Game</label>
                                     <select id="event-type" class="form-select" name="event-type" required>
-                                        <option value="" selected>Galaxy Pioneers</option>
+                                        <option value="" selected>Select Game</option>
                                         <option value="galaxy">Galaxy Pioneers</option>
                                         <option value="mystic">Mystic Woods</option>
                                         <option value="captains">Captain's Gambet</option>
                                         <option value="critter">Critter Quest</option>
-                                         <option value="settlers">Settlers of Catan</option>
+                                        <option value="settlers">Settlers of Catan</option>
                                         <option value="monopoly">Monopoly</option>
                                         <option value="exploding">Exploding Kittens</option>
                                         <option value="cluedo">Cluedo</option>
                                     </select>
                                 </div>
-                                <div class="col-12 mb-3">
-                                    <label for="message" class="form-label">Message</label>
-                                    <textarea class="form-control" rows="6" id="message" name="message"
-                                        required></textarea>
-                                </div>
-                            </div>
 
-                            <button type="submit" class="btn custom-button-outline">Submit</button>
+                                <div class="col-12 col-lg-6 mb-3 flex-column d-flex">
+                                    <label for="date">Requested Date</label>
+                                    <input id="date" type="date" id="date" name="date">
+                                </div>
+                                
+
+                                <div class="col-12">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea class="form-control" rows="6" id="message" name="message"
+                                            required></textarea>
+                                </div>
+                                </div>
+
+                                <div id="sub"><button type="submit" class="btn custom-button-outline">Submit</button></div>
                         </form>
                     </div>
                 </div>
