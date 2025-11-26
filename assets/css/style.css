@@ -115,7 +115,10 @@ h2 {
 }
 
 /* Reservation Section */
-    
+#reservation-form h2 {
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -177,7 +180,7 @@ h2 {
     #services .card-body {
         min-height: 191px;
     }
-    
+     /* Reserve a game form width adjustment */
 }
 
 /* Large devices (small laptops, 992px and up) */
@@ -186,6 +189,8 @@ h2 {
     #services .card-body {
         min-height: auto;
     }
+     
+    
 }
 
 /* Xl devices (large desktops, 1200px and up) */
